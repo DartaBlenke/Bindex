@@ -2,13 +2,13 @@
   "name": "bindex",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "prepare": "husky"
-  },
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint",
+  "test": "echo \"No tests yet\" && exit 0"
+},
   "dependencies": {
     "@prisma/client": "^7.8.0",
     "next": "16.2.9",
